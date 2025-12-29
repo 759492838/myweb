@@ -7,7 +7,7 @@
     "dev": "rolldown-vite",
     "build": "rolldown-vite build",
     "preview": "rolldown-vite preview",
-    "prebuild": "rm -f yarn.lock && yarn install --frozen-lockfile",
+    "prebuild": "rm -f bun.lock && bun install --frozen-lockfile",
     "deploy": "yarn prebuild && npx wrangler deploy"
   },
   "dependencies": {
