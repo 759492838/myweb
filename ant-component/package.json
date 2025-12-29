@@ -1,0 +1,22 @@
+{
+  "name": "ant-component",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ant-design-vue": "3.2.14",
+    "vue": "^3.5.24"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "npm:rolldown-vite@7.2.5"
+  },
+  "resolutions": {
+    "vite": "npm:rolldown-vite@7.2.5"
+  }
+}
