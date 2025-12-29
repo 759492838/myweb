@@ -4,7 +4,7 @@
         <a-layout-content>
             <a-layout>
                 <CommonSider />
-                <a-layout-content :style="{ padding:'0 24px', minHeight:'280px', color:'#666',background:'#fff' }">
+                <a-layout-content :style="{ display: 'none' }">
                     右侧内容区域
                 </a-layout-content>
             </a-layout>
